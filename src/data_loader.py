@@ -147,6 +147,34 @@ def fetch_weather(start_date: str = "2022-01-01", end_date: str = "2025-12-31") 
     return df
 
 
+STATIONS_JSON = "https://www.rideindego.com/stations/json/"
+STATIONS_CACHE = DATA_DIR / "indego_stations.csv"
+
+
+def load_station_names(force: bool = False) -> dict:
+    """Return a {station_id: station_name} mapping from Indego's live station feed.
+
+    Cached to data/indego_stations.csv so the notebooks work offline after the
+    first fetch. The feed's ``kioskId`` matches the station numbers in the trip
+    data (e.g. 3020 -> "University City Station").
+    """
+    if STATIONS_CACHE.exists() and not force:
+        cached = pd.read_csv(STATIONS_CACHE)
+        return dict(zip(cached["station_id"], cached["name"]))
+
+    r = requests.get(STATIONS_JSON, headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    rows = [
+        {"station_id": f["properties"]["kioskId"], "name": f["properties"]["name"]}
+        for f in r.json()["features"]
+        if f.get("properties", {}).get("kioskId") is not None
+    ]
+    stations = pd.DataFrame(rows).drop_duplicates("station_id")
+    DATA_DIR.mkdir(exist_ok=True)
+    stations.to_csv(STATIONS_CACHE, index=False)
+    return dict(zip(stations["station_id"], stations["name"]))
+
+
 if __name__ == "__main__":
     print("Downloading Indego trip data (2022–2025)...")
     download_all(2022, 2025)
