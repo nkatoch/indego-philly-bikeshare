@@ -1,5 +1,8 @@
 # Indego Philadelphia Bike Share — Analytics & Demand Forecasting
 
+### 📊 **[Read the Executive Report →](https://nkatoch.github.io/indego-philly-bikeshare/)**
+*A single-page visual story — the challenge, the approach, the solution, and the business impact.*
+
 [![View descriptive notebook on nbviewer](https://img.shields.io/badge/nbviewer-01_descriptive_analytics-orange?logo=jupyter)](https://nbviewer.org/github/nkatoch/indego-philly-bikeshare/blob/main/notebooks/01_descriptive_analytics.ipynb)
 
 > **Maps:** GitHub strips the JavaScript in interactive Folium maps, so the notebook shows static snapshots inline. For the fully interactive maps, open the notebook on **[nbviewer](https://nbviewer.org/github/nkatoch/indego-philly-bikeshare/blob/main/notebooks/01_descriptive_analytics.ipynb)** or the standalone live versions: **[station demand](https://nkatoch.github.io/indego-philly-bikeshare/map_stations.html)** · **[popular routes](https://nkatoch.github.io/indego-philly-bikeshare/map_routes.html)**.
