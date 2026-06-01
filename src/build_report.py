@@ -111,7 +111,16 @@ section.alt{background:var(--soft)}
 /* figures */
 figure{margin:26px 0;text-align:center}
 img.chart{max-width:100%;height:auto;border:1px solid var(--line);border-radius:10px;
-  box-shadow:0 6px 22px rgba(20,33,61,.07)}
+  box-shadow:0 6px 22px rgba(20,33,61,.07);cursor:zoom-in;transition:box-shadow .15s}
+img.chart:hover{box-shadow:0 10px 30px rgba(20,33,61,.16)}
+/* lightbox */
+#lightbox{position:fixed;inset:0;z-index:100;display:none;align-items:center;
+  justify-content:center;background:rgba(10,16,30,.88);cursor:zoom-out;padding:24px}
+#lightbox.open{display:flex}
+#lightbox img{max-width:96vw;max-height:94vh;border-radius:8px;
+  box-shadow:0 18px 60px rgba(0,0,0,.5)}
+#lightbox .hint{position:fixed;top:16px;right:22px;color:#cdddf6;font-size:13px;
+  font-family:-apple-system,sans-serif}
 figcaption{font-size:14px;color:var(--muted);margin-top:9px}
 .mapbtn{display:inline-block;margin-top:10px;font-size:14px;font-weight:700;
   background:var(--chip);border:1px solid #d4e0f4;border-radius:999px;
@@ -147,7 +156,9 @@ footer .name{font-family:Georgia,serif;color:var(--ink);font-size:17px;font-weig
   .hero h1{font-size:34px} h2{font-size:25px}
 }
 @media print{
-  nav{display:none} .hero{background:#0d1b3a!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  nav{display:none} #lightbox{display:none!important}
+  .hero{background:#0d1b3a!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  img.chart{cursor:default}
   section{break-inside:avoid;border:none;padding:18px 0} .mapbtn{display:none}
   img.chart{box-shadow:none} a{color:var(--ink)}
   thead th,.term{-webkit-print-color-adjust:exact;print-color-adjust:exact}
@@ -385,11 +396,22 @@ Station 3032   predicted:  +9   hist_avg:  +7   → <span class="rem">🔵 REMOV
 
 <footer><div class="wrap">
   <p class="name">Naval Katoch</p>
-  <p class="muted">Senior Analytics Consultant · WEMBA, The Wharton School<br>
-  Data: Indego Bike Share (Bicycle Transit Systems / City of Philadelphia) · Weather: Open-Meteo historical API.<br>
+  <p class="muted">Data: Indego Bike Share (Bicycle Transit Systems / City of Philadelphia) · Weather: Open-Meteo historical API.<br>
   Full analysis: <a href="https://github.com/nkatoch/indego-philly-bikeshare">github.com/nkatoch/indego-philly-bikeshare</a></p>
 </div></footer>
 
+<div id="lightbox"><span class="hint">click anywhere or press Esc to close</span><img alt="enlarged chart"></div>
+<script>
+(function(){{
+  var lb=document.getElementById('lightbox'), big=lb.querySelector('img');
+  document.querySelectorAll('img.chart').forEach(function(c){{
+    c.addEventListener('click',function(){{ big.src=c.src; lb.classList.add('open'); }});
+  }});
+  function close(){{ lb.classList.remove('open'); big.removeAttribute('src'); }}
+  lb.addEventListener('click',close);
+  document.addEventListener('keydown',function(e){{ if(e.key==='Escape') close(); }});
+}})();
+</script>
 </body>
 </html>"""
 
