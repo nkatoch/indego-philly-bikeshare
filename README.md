@@ -2,7 +2,7 @@
 
 End-to-end analytics project on Philadelphia's Indego bike share system: 4.6 million trips across 2022–2025, descriptive deep-dive plus a machine-learning demand forecaster that beats the historical-average baseline by 12% overall and up to 34% on exception days.
 
-This is a modernised rebuild of an earlier IBM CitiBike NYC analysis (2018), reframed around the operational problem Indego dispatchers actually face every morning.
+This is framed around an operational problem Indego dispatchers might face every morning.
 
 ---
 
@@ -149,7 +149,7 @@ Trip CSVs (~600 MB total) are not committed — regenerate via `python src/data_
 
 ## Background
 
-The original IBM analysis used 2016–2018 CitiBike NYC data and IBM's proprietary Weather Company API. This rebuild:
+This project is inspired by a Data Science Bootcamp I had done while I was working at IBM. I had analyzed NYC CitiBike data and IBM's proprietary Weather Company API. This rebuild:
 
 - Switches to **Philadelphia's Indego system** — locally relevant for the Wharton WEMBA audience
 - Replaces proprietary weather with **Open-Meteo** (free, ERA5 reanalysis)
