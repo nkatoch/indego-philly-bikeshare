@@ -1,5 +1,9 @@
 # Indego Philadelphia Bike Share — Analytics & Demand Forecasting
 
+[![View descriptive notebook on nbviewer](https://img.shields.io/badge/nbviewer-01_descriptive_analytics-orange?logo=jupyter)](https://nbviewer.org/github/nkatoch/indego-philly-bikeshare/blob/main/notebooks/01_descriptive_analytics.ipynb)
+
+> **Maps:** GitHub strips the JavaScript in interactive Folium maps, so the notebook shows static snapshots inline. For the fully interactive maps, open the notebook on **[nbviewer](https://nbviewer.org/github/nkatoch/indego-philly-bikeshare/blob/main/notebooks/01_descriptive_analytics.ipynb)** or the standalone live versions: **[station demand](https://nkatoch.github.io/indego-philly-bikeshare/map_stations.html)** · **[popular routes](https://nkatoch.github.io/indego-philly-bikeshare/map_routes.html)**.
+
 End-to-end analytics project on Philadelphia's Indego bike share system: 4.6 million trips across 2022–2025, descriptive deep-dive plus a machine-learning demand forecaster that beats the historical-average baseline by 12% overall and up to 34% on exception days.
 
 This is a modernised rebuild of an earlier IBM CitiBike NYC analysis (2018), reframed around the operational problem Indego dispatchers actually face every morning.
@@ -31,7 +35,7 @@ Visual story of how Philadelphia rides. Twelve sections including:
 | 6. Trip duration by passholder | Subscribers ~12 min, day-pass users ~41 min |
 | 7. E-bike vs. pedal bike | Electric now >50% of trips |
 | 8. Weather impact | Rain reduces demand 10–15% |
-| 9. Popular routes map | Top 10 corridors as an interactive folium map |
+| 9. Popular routes map | Top 10 corridors ([interactive map](https://nkatoch.github.io/indego-philly-bikeshare/map_routes.html)) |
 
 ### `notebooks/02_demand_forecasting.ipynb`
 End-to-end ML pipeline that predicts **session net flow** (departures − arrivals) per station per rush window. Top 50 stations × AM (7–9am) + PM (4–7pm) sessions, with curated Philadelphia special events.
@@ -87,7 +91,7 @@ Station 3208  predicted: -13  hist_avg: -14  adjustment: +1  →  🔴 SEND 13 b
 ## Setup
 
 ```bash
-git clone https://github.com/navalkatoch/indego-philly-bikeshare.git
+git clone https://github.com/nkatoch/indego-philly-bikeshare.git
 cd indego-philly-bikeshare
 
 # Install dependencies
@@ -113,7 +117,11 @@ indego-philly-bikeshare/
 │   └── 02_demand_forecasting.ipynb        # Net-flow ML pipeline + dispatcher dashboard
 ├── src/
 │   ├── data_loader.py                     # Indego CSV download + Open-Meteo weather
+│   ├── static_maps.py                     # Static (contextily) snapshots of the Folium maps
 │   └── build_special_events.py            # Curated event-date CSV builder
+├── docs/                                  # GitHub Pages — interactive map HTML
+│   ├── map_stations.html
+│   └── map_routes.html
 ├── data/
 │   ├── README.md                          # Data download instructions
 │   └── special_events.csv                 # 390 curated event dates (2022–2025)
