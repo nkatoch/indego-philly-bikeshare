@@ -1,6 +1,7 @@
 # Data files (too large to commit — see data/README.md for download instructions)
 data/*.csv
 !data/special_events.csv
+!data/indego_stations.csv
 data/*.zip
 data/*.parquet
 data/raw/
