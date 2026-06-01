@@ -1,0 +1,391 @@
+date,event_type,event_name,notes
+2022-01-01,festival,Mummers Parade,Broad Street
+2022-04-11,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2022-04-12,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2022-04-13,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2022-04-22,phillies_home,Phillies vs. Brewers,Citizens Bank Park
+2022-04-23,phillies_home,Phillies vs. Brewers,Citizens Bank Park
+2022-04-24,phillies_home,Phillies vs. Brewers,Citizens Bank Park
+2022-04-25,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2022-04-26,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2022-04-27,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2022-04-28,festival,Penn Relays,Franklin Field
+2022-04-28,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2022-04-29,festival,Penn Relays,Franklin Field
+2022-04-30,festival,Penn Relays,Franklin Field
+2022-04-30,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2022-05-01,festival,Broad Street Run,Broad Street 10-miler
+2022-05-05,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2022-05-08,phillies_home,Phillies vs. Mets DH,Citizens Bank Park
+2022-05-16,academic,Penn Commencement,University City
+2022-05-17,phillies_home,Phillies vs. Padres,Citizens Bank Park
+2022-05-18,phillies_home,Phillies vs. Padres,Citizens Bank Park
+2022-05-19,phillies_home,Phillies vs. Padres,Citizens Bank Park
+2022-05-20,phillies_home,Phillies vs. Dodgers,Citizens Bank Park
+2022-05-21,phillies_home,Phillies vs. Dodgers,Citizens Bank Park
+2022-05-22,phillies_home,Phillies vs. Dodgers,Citizens Bank Park
+2022-05-23,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2022-05-30,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2022-05-31,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2022-06-01,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2022-06-03,phillies_home,Phillies vs. Angels,Citizens Bank Park
+2022-06-04,phillies_home,Phillies vs. Angels,Citizens Bank Park
+2022-06-05,phillies_home,Phillies vs. Angels,Citizens Bank Park
+2022-06-10,academic,Drexel Commencement,University City
+2022-06-10,phillies_home,Phillies vs. Diamondbacks,Citizens Bank Park
+2022-06-11,academic,Drexel Commencement,University City
+2022-06-11,phillies_home,Phillies vs. Diamondbacks,Citizens Bank Park
+2022-06-12,phillies_home,Phillies vs. Diamondbacks,Citizens Bank Park
+2022-06-13,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2022-06-14,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2022-06-15,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2022-06-28,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2022-06-29,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2022-06-30,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2022-07-01,phillies_home,Phillies vs. Cardinals,Citizens Bank Park
+2022-07-02,phillies_home,Phillies vs. Cardinals,Citizens Bank Park
+2022-07-03,phillies_home,Phillies vs. Cardinals,Citizens Bank Park
+2022-07-04,festival,Welcome America Fireworks,Ben Franklin Parkway
+2022-07-05,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2022-07-06,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2022-07-07,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2022-07-22,phillies_home,Phillies vs. Cubs,Citizens Bank Park
+2022-07-23,phillies_home,Phillies vs. Cubs,Citizens Bank Park
+2022-07-24,phillies_home,Phillies vs. Cubs,Citizens Bank Park
+2022-07-25,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2022-07-26,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2022-07-27,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2022-08-04,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2022-08-05,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2022-08-06,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2022-08-07,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2022-08-09,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2022-08-10,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2022-08-11,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2022-08-19,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2022-08-20,phillies_home,Phillies vs. Mets DH,Citizens Bank Park
+2022-08-21,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2022-08-22,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2022-08-23,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2022-08-24,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2022-08-25,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2022-08-26,phillies_home,Phillies vs. Pirates,Citizens Bank Park
+2022-08-27,phillies_home,Phillies vs. Pirates,Citizens Bank Park
+2022-08-28,phillies_home,Phillies vs. Pirates,Citizens Bank Park
+2022-09-03,festival,Made In America Festival,Ben Franklin Parkway
+2022-09-04,festival,Made In America Festival,Ben Franklin Parkway
+2022-09-06,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2022-09-07,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2022-09-08,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2022-09-09,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2022-09-10,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2022-09-11,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2022-09-19,eagles_home,Eagles vs. Vikings,Lincoln Financial Field
+2022-09-20,phillies_home,Phillies vs. Blue Jays,Citizens Bank Park
+2022-09-21,phillies_home,Phillies vs. Blue Jays,Citizens Bank Park
+2022-09-22,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2022-09-23,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2022-09-24,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2022-09-25,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2022-10-02,eagles_home,Eagles vs. Jaguars,Lincoln Financial Field
+2022-10-14,phillies_home,Phillies vs. Braves NLDS,Citizens Bank Park
+2022-10-15,phillies_home,Phillies vs. Braves NLDS,Citizens Bank Park
+2022-10-16,eagles_home,Eagles vs. Cowboys,Lincoln Financial Field
+2022-10-21,phillies_home,Phillies vs. Padres NLCS,Citizens Bank Park
+2022-10-22,phillies_home,Phillies vs. Padres NLCS,Citizens Bank Park
+2022-10-25,phillies_home,Phillies vs. Padres NLCS,Citizens Bank Park
+2022-10-30,eagles_home,Eagles vs. Steelers,Lincoln Financial Field
+2022-11-02,phillies_home,Phillies vs. Astros WS,Citizens Bank Park
+2022-11-19,festival,Philly Marathon Weekend,half marathon
+2022-11-20,festival,Philly Marathon,full marathon
+2022-11-27,eagles_home,Eagles vs. Packers,Lincoln Financial Field
+2022-12-04,eagles_home,Eagles vs. Titans,Lincoln Financial Field
+2023-01-01,eagles_home,Eagles vs. Saints,Lincoln Financial Field
+2023-01-01,festival,Mummers Parade,Broad Street
+2023-01-08,eagles_home,Eagles vs. Giants,Lincoln Financial Field
+2023-01-21,eagles_home,Eagles vs. Giants NFC Divisional,Lincoln Financial Field
+2023-01-29,eagles_home,Eagles vs. 49ers NFC Championship,Lincoln Financial Field
+2023-04-07,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2023-04-08,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2023-04-09,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2023-04-10,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2023-04-11,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2023-04-12,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2023-04-21,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2023-04-22,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2023-04-23,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2023-04-26,phillies_home,Phillies vs. Mariners,Citizens Bank Park
+2023-04-27,festival,Penn Relays,Franklin Field
+2023-04-27,phillies_home,Phillies vs. Mariners,Citizens Bank Park
+2023-04-28,festival,Penn Relays,Franklin Field
+2023-04-29,festival,Penn Relays,Franklin Field
+2023-05-07,festival,Broad Street Run,Broad Street 10-miler
+2023-05-07,phillies_home,Phillies vs. Red Sox,Citizens Bank Park
+2023-05-09,phillies_home,Phillies vs. Blue Jays,Citizens Bank Park
+2023-05-10,phillies_home,Phillies vs. Blue Jays,Citizens Bank Park
+2023-05-15,academic,Penn Commencement,University City
+2023-05-19,phillies_home,Phillies vs. Cubs,Citizens Bank Park
+2023-05-20,phillies_home,Phillies vs. Cubs,Citizens Bank Park
+2023-05-21,phillies_home,Phillies vs. Cubs,Citizens Bank Park
+2023-05-22,phillies_home,Phillies vs. Diamondbacks,Citizens Bank Park
+2023-05-23,phillies_home,Phillies vs. Diamondbacks,Citizens Bank Park
+2023-05-24,phillies_home,Phillies vs. Diamondbacks,Citizens Bank Park
+2023-06-09,phillies_home,Phillies vs. Dodgers,Citizens Bank Park
+2023-06-10,phillies_home,Phillies vs. Dodgers,Citizens Bank Park
+2023-06-11,phillies_home,Phillies vs. Dodgers,Citizens Bank Park
+2023-06-16,academic,Drexel Commencement,University City
+2023-06-17,academic,Drexel Commencement,University City
+2023-06-23,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2023-06-24,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2023-06-25,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2023-06-30,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2023-07-01,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2023-07-02,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2023-07-04,festival,Welcome America Fireworks,Ben Franklin Parkway
+2023-07-14,phillies_home,Phillies vs. Padres,Citizens Bank Park
+2023-07-15,phillies_home,Phillies vs. Padres DH,Citizens Bank Park
+2023-07-16,phillies_home,Phillies vs. Padres,Citizens Bank Park
+2023-07-18,phillies_home,Phillies vs. Brewers,Citizens Bank Park
+2023-07-19,phillies_home,Phillies vs. Brewers,Citizens Bank Park
+2023-07-20,phillies_home,Phillies vs. Brewers,Citizens Bank Park
+2023-07-24,phillies_home,Phillies vs. Orioles,Citizens Bank Park
+2023-07-25,phillies_home,Phillies vs. Orioles,Citizens Bank Park
+2023-07-26,phillies_home,Phillies vs. Orioles,Citizens Bank Park
+2023-08-03,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2023-08-04,phillies_home,Phillies vs. Royals,Citizens Bank Park
+2023-08-05,phillies_home,Phillies vs. Royals,Citizens Bank Park
+2023-08-06,phillies_home,Phillies vs. Royals,Citizens Bank Park
+2023-08-08,phillies_home,Phillies vs. Nationals DH,Citizens Bank Park
+2023-08-09,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2023-08-10,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2023-08-11,phillies_home,Phillies vs. Twins,Citizens Bank Park
+2023-08-12,phillies_home,Phillies vs. Twins,Citizens Bank Park
+2023-08-13,phillies_home,Phillies vs. Twins,Citizens Bank Park
+2023-08-21,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2023-08-22,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2023-08-23,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2023-08-25,phillies_home,Phillies vs. Cardinals,Citizens Bank Park
+2023-08-26,phillies_home,Phillies vs. Cardinals,Citizens Bank Park
+2023-08-27,phillies_home,Phillies vs. Cardinals,Citizens Bank Park
+2023-08-28,phillies_home,Phillies vs. Angels,Citizens Bank Park
+2023-08-29,phillies_home,Phillies vs. Angels,Citizens Bank Park
+2023-08-30,phillies_home,Phillies vs. Angels,Citizens Bank Park
+2023-09-02,festival,Made In America Festival,Ben Franklin Parkway
+2023-09-03,festival,Made In America Festival,Ben Franklin Parkway
+2023-09-08,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2023-09-09,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2023-09-10,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2023-09-11,phillies_home,Phillies vs. Braves DH,Citizens Bank Park
+2023-09-12,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2023-09-13,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2023-09-14,eagles_home,Eagles vs. Vikings,Lincoln Financial Field
+2023-09-21,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2023-09-22,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2023-09-23,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2023-09-24,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2023-10-01,eagles_home,Eagles vs. Commanders,Lincoln Financial Field
+2023-10-03,phillies_home,Phillies vs. Marlins WC,Citizens Bank Park
+2023-10-04,phillies_home,Phillies vs. Marlins WC,Citizens Bank Park
+2023-10-11,phillies_home,Phillies vs. Braves NLDS,Citizens Bank Park
+2023-10-12,phillies_home,Phillies vs. Braves NLDS,Citizens Bank Park
+2023-10-16,phillies_home,Phillies vs. Diamondbacks NLCS,Citizens Bank Park
+2023-10-17,phillies_home,Phillies vs. Diamondbacks NLCS,Citizens Bank Park
+2023-10-22,eagles_home,Eagles vs. Dolphins,Lincoln Financial Field
+2023-10-23,phillies_home,Phillies vs. Diamondbacks NLCS,Citizens Bank Park
+2023-10-24,phillies_home,Phillies vs. Diamondbacks NLCS,Citizens Bank Park
+2023-11-05,eagles_home,Eagles vs. Cowboys,Lincoln Financial Field
+2023-11-18,festival,Philly Marathon Weekend,half marathon
+2023-11-19,festival,Philly Marathon,full marathon
+2023-11-26,eagles_home,Eagles vs. Bills,Lincoln Financial Field
+2023-12-03,eagles_home,Eagles vs. 49ers,Lincoln Financial Field
+2023-12-25,eagles_home,Eagles vs. Giants,Lincoln Financial Field
+2024-01-01,festival,Mummers Parade,Broad Street
+2024-03-29,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2024-03-30,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2024-03-31,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2024-04-01,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2024-04-02,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2024-04-03,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2024-04-11,phillies_home,Phillies vs. Pirates,Citizens Bank Park
+2024-04-12,phillies_home,Phillies vs. Pirates,Citizens Bank Park
+2024-04-13,phillies_home,Phillies vs. Pirates,Citizens Bank Park
+2024-04-14,phillies_home,Phillies vs. Pirates,Citizens Bank Park
+2024-04-15,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2024-04-16,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2024-04-17,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2024-04-19,phillies_home,Phillies vs. White Sox,Citizens Bank Park
+2024-04-20,phillies_home,Phillies vs. White Sox,Citizens Bank Park
+2024-04-21,phillies_home,Phillies vs. White Sox,Citizens Bank Park
+2024-04-25,festival,Penn Relays,Franklin Field
+2024-04-26,festival,Penn Relays,Franklin Field
+2024-04-27,festival,Penn Relays,Franklin Field
+2024-05-03,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2024-05-04,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2024-05-05,festival,Broad Street Run,Broad Street 10-miler
+2024-05-05,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2024-05-06,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2024-05-07,phillies_home,Phillies vs. Blue Jays,Citizens Bank Park
+2024-05-08,phillies_home,Phillies vs. Blue Jays,Citizens Bank Park
+2024-05-13,academic,Penn Commencement,University City
+2024-05-15,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2024-05-16,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2024-05-17,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2024-05-18,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2024-05-19,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2024-05-21,phillies_home,Phillies vs. Rangers,Citizens Bank Park
+2024-05-22,phillies_home,Phillies vs. Rangers,Citizens Bank Park
+2024-05-23,phillies_home,Phillies vs. Rangers,Citizens Bank Park
+2024-06-01,phillies_home,Phillies vs. Cardinals,Citizens Bank Park
+2024-06-02,phillies_home,Phillies vs. Cardinals,Citizens Bank Park
+2024-06-03,phillies_home,Phillies vs. Brewers,Citizens Bank Park
+2024-06-04,phillies_home,Phillies vs. Brewers,Citizens Bank Park
+2024-06-05,phillies_home,Phillies vs. Brewers,Citizens Bank Park
+2024-06-09,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2024-06-14,academic,Drexel Commencement,University City
+2024-06-15,academic,Drexel Commencement,University City
+2024-06-17,phillies_home,Phillies vs. Padres,Citizens Bank Park
+2024-06-18,phillies_home,Phillies vs. Padres,Citizens Bank Park
+2024-06-19,phillies_home,Phillies vs. Padres,Citizens Bank Park
+2024-06-21,phillies_home,Phillies vs. Diamondbacks,Citizens Bank Park
+2024-06-22,phillies_home,Phillies vs. Diamondbacks,Citizens Bank Park
+2024-06-23,phillies_home,Phillies vs. Diamondbacks,Citizens Bank Park
+2024-06-27,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2024-06-28,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2024-06-29,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2024-06-30,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2024-07-04,festival,Welcome America Fireworks,Ben Franklin Parkway
+2024-07-09,phillies_home,Phillies vs. Dodgers,Citizens Bank Park
+2024-07-10,phillies_home,Phillies vs. Dodgers,Citizens Bank Park
+2024-07-11,phillies_home,Phillies vs. Dodgers,Citizens Bank Park
+2024-07-12,phillies_home,Phillies vs. Athletics,Citizens Bank Park
+2024-07-13,phillies_home,Phillies vs. Athletics,Citizens Bank Park
+2024-07-14,phillies_home,Phillies vs. Athletics,Citizens Bank Park
+2024-08-13,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2024-08-14,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2024-08-15,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2024-08-16,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2024-08-17,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2024-08-18,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2024-08-29,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2024-08-30,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2024-08-31,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2024-09-01,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2024-09-09,phillies_home,Phillies vs. Rays,Citizens Bank Park
+2024-09-10,phillies_home,Phillies vs. Rays,Citizens Bank Park
+2024-09-11,phillies_home,Phillies vs. Rays,Citizens Bank Park
+2024-09-13,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2024-09-14,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2024-09-15,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2024-09-16,eagles_home,Eagles vs. Falcons,Lincoln Financial Field
+2024-09-23,phillies_home,Phillies vs. Cubs,Citizens Bank Park
+2024-09-24,phillies_home,Phillies vs. Cubs,Citizens Bank Park
+2024-09-25,phillies_home,Phillies vs. Cubs,Citizens Bank Park
+2024-10-06,phillies_home,Phillies vs. Mets NLDS,Citizens Bank Park
+2024-10-13,eagles_home,Eagles vs. Browns,Lincoln Financial Field
+2024-10-20,eagles_home,Eagles vs. Giants,Lincoln Financial Field
+2024-10-27,eagles_home,Eagles vs. Bengals,Lincoln Financial Field
+2024-11-03,eagles_home,Eagles vs. Jaguars,Lincoln Financial Field
+2024-11-14,eagles_home,Eagles vs. Commanders,Lincoln Financial Field
+2024-11-23,festival,Philly Marathon Weekend,half marathon
+2024-11-24,festival,Philly Marathon,full marathon
+2024-12-08,eagles_home,Eagles vs. Panthers,Lincoln Financial Field
+2024-12-15,eagles_home,Eagles vs. Steelers,Lincoln Financial Field
+2024-12-29,eagles_home,Eagles vs. Cowboys,Lincoln Financial Field
+2025-01-01,festival,Mummers Parade,Broad Street
+2025-01-05,eagles_home,Eagles vs. Giants,Lincoln Financial Field
+2025-01-12,eagles_home,Eagles vs. Packers Wild Card,Lincoln Financial Field
+2025-01-19,eagles_home,Eagles vs. Rams NFC Divisional,Lincoln Financial Field
+2025-01-26,eagles_home,Eagles vs. Commanders NFC Championship,Lincoln Financial Field
+2025-03-31,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2025-04-02,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2025-04-03,phillies_home,Phillies vs. Rockies,Citizens Bank Park
+2025-04-04,phillies_home,Phillies vs. Dodgers,Citizens Bank Park
+2025-04-05,phillies_home,Phillies vs. Dodgers,Citizens Bank Park
+2025-04-06,phillies_home,Phillies vs. Dodgers,Citizens Bank Park
+2025-04-14,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2025-04-15,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2025-04-16,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2025-04-17,phillies_home,Phillies vs. Giants,Citizens Bank Park
+2025-04-18,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2025-04-19,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2025-04-20,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2025-04-24,festival,Penn Relays,Franklin Field
+2025-04-25,festival,Penn Relays,Franklin Field
+2025-04-26,festival,Penn Relays,Franklin Field
+2025-04-29,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2025-04-30,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2025-05-01,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2025-05-02,phillies_home,Phillies vs. Diamondbacks,Citizens Bank Park
+2025-05-03,phillies_home,Phillies vs. Diamondbacks,Citizens Bank Park
+2025-05-04,festival,Broad Street Run,Broad Street 10-miler
+2025-05-04,phillies_home,Phillies vs. Diamondbacks,Citizens Bank Park
+2025-05-12,phillies_home,Phillies vs. Cardinals,Citizens Bank Park
+2025-05-14,phillies_home,Phillies vs. Cardinals DH,Citizens Bank Park
+2025-05-16,phillies_home,Phillies vs. Pirates,Citizens Bank Park
+2025-05-17,phillies_home,Phillies vs. Pirates,Citizens Bank Park
+2025-05-18,phillies_home,Phillies vs. Pirates,Citizens Bank Park
+2025-05-19,academic,Penn Commencement,University City
+2025-05-27,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2025-05-29,phillies_home,Phillies vs. Braves DH,Citizens Bank Park
+2025-05-30,phillies_home,Phillies vs. Brewers,Citizens Bank Park
+2025-05-31,phillies_home,Phillies vs. Brewers,Citizens Bank Park
+2025-06-01,phillies_home,Phillies vs. Brewers,Citizens Bank Park
+2025-06-09,phillies_home,Phillies vs. Cubs,Citizens Bank Park
+2025-06-10,phillies_home,Phillies vs. Cubs,Citizens Bank Park
+2025-06-11,phillies_home,Phillies vs. Cubs,Citizens Bank Park
+2025-06-13,academic,Drexel Commencement,University City
+2025-06-13,phillies_home,Phillies vs. Blue Jays,Citizens Bank Park
+2025-06-14,academic,Drexel Commencement,University City
+2025-06-14,phillies_home,Phillies vs. Blue Jays,Citizens Bank Park
+2025-06-15,phillies_home,Phillies vs. Blue Jays,Citizens Bank Park
+2025-06-20,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2025-06-21,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2025-06-22,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2025-06-30,phillies_home,Phillies vs. Padres,Citizens Bank Park
+2025-07-02,phillies_home,Phillies vs. Padres DH,Citizens Bank Park
+2025-07-04,festival,Welcome America Fireworks,Ben Franklin Parkway
+2025-07-04,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2025-07-05,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2025-07-06,phillies_home,Phillies vs. Reds,Citizens Bank Park
+2025-07-18,phillies_home,Phillies vs. Angels,Citizens Bank Park
+2025-07-19,phillies_home,Phillies vs. Angels,Citizens Bank Park
+2025-07-20,phillies_home,Phillies vs. Angels,Citizens Bank Park
+2025-07-21,phillies_home,Phillies vs. Red Sox,Citizens Bank Park
+2025-07-22,phillies_home,Phillies vs. Red Sox,Citizens Bank Park
+2025-07-23,phillies_home,Phillies vs. Red Sox,Citizens Bank Park
+2025-08-01,phillies_home,Phillies vs. Tigers,Citizens Bank Park
+2025-08-02,phillies_home,Phillies vs. Tigers,Citizens Bank Park
+2025-08-03,phillies_home,Phillies vs. Tigers,Citizens Bank Park
+2025-08-04,phillies_home,Phillies vs. Orioles,Citizens Bank Park
+2025-08-05,phillies_home,Phillies vs. Orioles,Citizens Bank Park
+2025-08-06,phillies_home,Phillies vs. Orioles,Citizens Bank Park
+2025-08-18,phillies_home,Phillies vs. Mariners,Citizens Bank Park
+2025-08-19,phillies_home,Phillies vs. Mariners,Citizens Bank Park
+2025-08-20,phillies_home,Phillies vs. Mariners,Citizens Bank Park
+2025-08-22,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2025-08-23,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2025-08-24,phillies_home,Phillies vs. Nationals,Citizens Bank Park
+2025-08-28,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2025-08-29,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2025-08-30,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2025-08-31,phillies_home,Phillies vs. Braves,Citizens Bank Park
+2025-09-04,eagles_home,Eagles vs. Cowboys,Lincoln Financial Field
+2025-09-08,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2025-09-09,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2025-09-10,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2025-09-11,phillies_home,Phillies vs. Mets,Citizens Bank Park
+2025-09-12,phillies_home,Phillies vs. Royals,Citizens Bank Park
+2025-09-13,phillies_home,Phillies vs. Royals,Citizens Bank Park
+2025-09-21,eagles_home,Eagles vs. Rams,Lincoln Financial Field
+2025-09-23,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2025-09-24,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2025-09-25,phillies_home,Phillies vs. Marlins,Citizens Bank Park
+2025-09-26,phillies_home,Phillies vs. Twins,Citizens Bank Park
+2025-10-04,phillies_home,Phillies vs. Dodgers NLDS,Citizens Bank Park
+2025-10-05,eagles_home,Eagles vs. Broncos,Lincoln Financial Field
+2025-10-06,phillies_home,Phillies vs. Dodgers NLDS,Citizens Bank Park
+2025-10-26,eagles_home,Eagles vs. Giants,Lincoln Financial Field
+2025-11-16,eagles_home,Eagles vs. Lions,Lincoln Financial Field
+2025-11-22,festival,Philly Marathon Weekend,half marathon
+2025-11-23,festival,Philly Marathon,full marathon
+2025-12-14,eagles_home,Eagles vs. Raiders,Lincoln Financial Field

@@ -1,0 +1,33 @@
+# Data files (too large to commit — see data/README.md for download instructions)
+data/*.csv
+!data/special_events.csv
+data/*.zip
+data/*.parquet
+data/raw/
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Environment
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings and execution logs
+.claude/
+logs/
+
+# Old IBM CitiBike artifacts — do NOT publish
+CitiBike_*.html
+Naval Katoch DevUp Read Me.docx
+=4.0
+
+# One-shot internal helpers (used to modify notebook JSON during dev)
+src/_update_nb*.py

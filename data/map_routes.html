@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_58f1abbc98854570ba1f876491ab12d4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_58f1abbc98854570ba1f876491ab12d4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_58f1abbc98854570ba1f876491ab12d4 = L.map(
+                "map_58f1abbc98854570ba1f876491ab12d4",
+                {
+                    center: [39.9526, -75.1652],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0bf4fb95c139e2ab78e3d94e9d629cb1 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0bf4fb95c139e2ab78e3d94e9d629cb1.addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            var poly_line_13a95673bc78755835d0e612420dd6e3 = L.polyline(
+                [[39.948551, -75.190071], [39.945271, -75.17971]],
+                {"bubblingMouseEvents": true, "color": "#E53935", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#E53935", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 10.0}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            poly_line_13a95673bc78755835d0e612420dd6e3.bindTooltip(
+                `<div>
+                     <b>Route #1</b><br>Station 3020.0 → 3032.0<br>5,402.0 trips
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_46c3a6eefbf415435eee718202584c5c = L.circleMarker(
+                [39.948551, -75.190071],
+                {"bubblingMouseEvents": true, "color": "#E53935", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E53935", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_46c3a6eefbf415435eee718202584c5c.bindTooltip(
+                `<div>
+                     Start: Station 3020.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b509339a57e0c22dd4ea141f6ab7a1db = L.circleMarker(
+                [39.945271, -75.17971],
+                {"bubblingMouseEvents": true, "color": "#E53935", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_b509339a57e0c22dd4ea141f6ab7a1db.bindTooltip(
+                `<div>
+                     End: Station 3032.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4f0e5aaf53a62056caab71e8766876cb = L.polyline(
+                [[39.950481, -75.193237], [39.945271, -75.17971]],
+                {"bubblingMouseEvents": true, "color": "#8E24AA", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8E24AA", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 8.537023324694557}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            poly_line_4f0e5aaf53a62056caab71e8766876cb.bindTooltip(
+                `<div>
+                     <b>Route #2</b><br>Station 3208.0 → 3032.0<br>4,273.0 trips
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8efdf698bb5d8d78cafb574b2a52b7e9 = L.circleMarker(
+                [39.950481, -75.193237],
+                {"bubblingMouseEvents": true, "color": "#8E24AA", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8E24AA", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_8efdf698bb5d8d78cafb574b2a52b7e9.bindTooltip(
+                `<div>
+                     Start: Station 3208.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0e53fa0afb53f4f0dc7b9b164603f29a = L.circleMarker(
+                [39.945271, -75.17971],
+                {"bubblingMouseEvents": true, "color": "#8E24AA", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_0e53fa0afb53f4f0dc7b9b164603f29a.bindTooltip(
+                `<div>
+                     End: Station 3032.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f638f1357bbd015dedb43901ece89804 = L.polyline(
+                [[39.942181, -75.177467], [39.948551, -75.190071]],
+                {"bubblingMouseEvents": true, "color": "#1E88E5", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1E88E5", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 8.163828211773417}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            poly_line_f638f1357bbd015dedb43901ece89804.bindTooltip(
+                `<div>
+                     <b>Route #3</b><br>Station 3012.0 → 3020.0<br>3,985.0 trips
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_77d45ec90886e87ea00077ae208cbf69 = L.circleMarker(
+                [39.942181, -75.177467],
+                {"bubblingMouseEvents": true, "color": "#1E88E5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1E88E5", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_77d45ec90886e87ea00077ae208cbf69.bindTooltip(
+                `<div>
+                     Start: Station 3012.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f78382addfd9a4d926c3e1365d757feb = L.circleMarker(
+                [39.948551, -75.190071],
+                {"bubblingMouseEvents": true, "color": "#1E88E5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_f78382addfd9a4d926c3e1365d757feb.bindTooltip(
+                `<div>
+                     End: Station 3020.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_77269613556b3ad1de1834b77734309a = L.polyline(
+                [[39.948551, -75.190071], [39.942181, -75.177467]],
+                {"bubblingMouseEvents": true, "color": "#00897B", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00897B", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 7.688263606071826}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            poly_line_77269613556b3ad1de1834b77734309a.bindTooltip(
+                `<div>
+                     <b>Route #4</b><br>Station 3020.0 → 3012.0<br>3,618.0 trips
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_915457180292832edd583ed60e7c127a = L.circleMarker(
+                [39.948551, -75.190071],
+                {"bubblingMouseEvents": true, "color": "#00897B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00897B", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_915457180292832edd583ed60e7c127a.bindTooltip(
+                `<div>
+                     Start: Station 3020.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3020338779bd4d6e8203f3f92f56da37 = L.circleMarker(
+                [39.942181, -75.177467],
+                {"bubblingMouseEvents": true, "color": "#00897B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_3020338779bd4d6e8203f3f92f56da37.bindTooltip(
+                `<div>
+                     End: Station 3012.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e7a290b63fb81033095cc21b70d5540c = L.polyline(
+                [[39.962711, -75.194191], [39.955761, -75.189819]],
+                {"bubblingMouseEvents": true, "color": "#43A047", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#43A047", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 7.230840429470566}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            poly_line_e7a290b63fb81033095cc21b70d5540c.bindTooltip(
+                `<div>
+                     <b>Route #5</b><br>Station 3035.0 → 3009.0<br>3,265.0 trips
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6839b250676acc2b364313c23d074d79 = L.circleMarker(
+                [39.962711, -75.194191],
+                {"bubblingMouseEvents": true, "color": "#43A047", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#43A047", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_6839b250676acc2b364313c23d074d79.bindTooltip(
+                `<div>
+                     Start: Station 3035.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9c6e819e70292de03b418147ddecb2d0 = L.circleMarker(
+                [39.955761, -75.189819],
+                {"bubblingMouseEvents": true, "color": "#43A047", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_9c6e819e70292de03b418147ddecb2d0.bindTooltip(
+                `<div>
+                     End: Station 3009.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_474a1de16275b8509dd33e5ca58ed5b3 = L.polyline(
+                [[39.949741, -75.180969], [39.948551, -75.190071]],
+                {"bubblingMouseEvents": true, "color": "#F4511E", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#F4511E", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6.952239911144021}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            poly_line_474a1de16275b8509dd33e5ca58ed5b3.bindTooltip(
+                `<div>
+                     <b>Route #6</b><br>Station 3163.0 → 3020.0<br>3,050.0 trips
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a6fb16c9ab0f23d451be8fea25ce84e8 = L.circleMarker(
+                [39.949741, -75.180969],
+                {"bubblingMouseEvents": true, "color": "#F4511E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4511E", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_a6fb16c9ab0f23d451be8fea25ce84e8.bindTooltip(
+                `<div>
+                     Start: Station 3163.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_12b73ce83671b2237a1d9bf9f3faa386 = L.circleMarker(
+                [39.948551, -75.190071],
+                {"bubblingMouseEvents": true, "color": "#F4511E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_12b73ce83671b2237a1d9bf9f3faa386.bindTooltip(
+                `<div>
+                     End: Station 3020.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d5911ee88f7815ed2949a381b7617dda = L.polyline(
+                [[39.962502, -75.174202], [39.96759, -75.17952]],
+                {"bubblingMouseEvents": true, "color": "#FDD835", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#FDD835", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6.90040725657164}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            poly_line_d5911ee88f7815ed2949a381b7617dda.bindTooltip(
+                `<div>
+                     <b>Route #7</b><br>Station 3054.0 → 3102.0<br>3,010.0 trips
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3ba7c0d2384c14e025118829a1f13988 = L.circleMarker(
+                [39.962502, -75.174202],
+                {"bubblingMouseEvents": true, "color": "#FDD835", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDD835", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_3ba7c0d2384c14e025118829a1f13988.bindTooltip(
+                `<div>
+                     Start: Station 3054.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3560c66ed1ff0333164268656e919e21 = L.circleMarker(
+                [39.96759, -75.17952],
+                {"bubblingMouseEvents": true, "color": "#FDD835", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_3560c66ed1ff0333164268656e919e21.bindTooltip(
+                `<div>
+                     End: Station 3102.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_cc6154445381ce679aa7f734d254a2f2 = L.polyline(
+                [[39.94561, -75.173477], [39.950481, -75.193237]],
+                {"bubblingMouseEvents": true, "color": "#6D4C41", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#6D4C41", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6.708626434653832}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            poly_line_cc6154445381ce679aa7f734d254a2f2.bindTooltip(
+                `<div>
+                     <b>Route #8</b><br>Station 3066.0 → 3208.0<br>2,862.0 trips
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bbf13750623fab612fd88965dfed37c8 = L.circleMarker(
+                [39.94561, -75.173477],
+                {"bubblingMouseEvents": true, "color": "#6D4C41", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6D4C41", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_bbf13750623fab612fd88965dfed37c8.bindTooltip(
+                `<div>
+                     Start: Station 3066.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cd711633bfadd8b2c463321adf8c7a8b = L.circleMarker(
+                [39.950481, -75.193237],
+                {"bubblingMouseEvents": true, "color": "#6D4C41", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_cd711633bfadd8b2c463321adf8c7a8b.bindTooltip(
+                `<div>
+                     End: Station 3208.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c49da5197fcaa60bcd37148b13dd7c0f = L.polyline(
+                [[39.945271, -75.17971], [39.948551, -75.190071]],
+                {"bubblingMouseEvents": true, "color": "#00ACC1", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00ACC1", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6.65938541281007}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            poly_line_c49da5197fcaa60bcd37148b13dd7c0f.bindTooltip(
+                `<div>
+                     <b>Route #9</b><br>Station 3032.0 → 3020.0<br>2,824.0 trips
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dc29c70af4fc8c25720067b186985dc2 = L.circleMarker(
+                [39.945271, -75.17971],
+                {"bubblingMouseEvents": true, "color": "#00ACC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00ACC1", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_dc29c70af4fc8c25720067b186985dc2.bindTooltip(
+                `<div>
+                     Start: Station 3032.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ebff0fcc909e7ee518b1a5b5f59d9540 = L.circleMarker(
+                [39.948551, -75.190071],
+                {"bubblingMouseEvents": true, "color": "#00ACC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_ebff0fcc909e7ee518b1a5b5f59d9540.bindTooltip(
+                `<div>
+                     End: Station 3020.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5d4aa53abd18acf8bcda9b378cede264 = L.polyline(
+                [[39.955761, -75.189819], [39.962711, -75.194191]],
+                {"bubblingMouseEvents": true, "color": "#3949AB", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3949AB", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6.643835616438356}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            poly_line_5d4aa53abd18acf8bcda9b378cede264.bindTooltip(
+                `<div>
+                     <b>Route #10</b><br>Station 3009.0 → 3035.0<br>2,812.0 trips
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2758b018ff2c144e2a233d8da561df3e = L.circleMarker(
+                [39.955761, -75.189819],
+                {"bubblingMouseEvents": true, "color": "#3949AB", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3949AB", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_2758b018ff2c144e2a233d8da561df3e.bindTooltip(
+                `<div>
+                     Start: Station 3009.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2dda212a729f8592f65e8367416cb9ef = L.circleMarker(
+                [39.962711, -75.194191],
+                {"bubblingMouseEvents": true, "color": "#3949AB", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 2}
+            ).addTo(map_58f1abbc98854570ba1f876491ab12d4);
+        
+    
+            circle_marker_2dda212a729f8592f65e8367416cb9ef.bindTooltip(
+                `<div>
+                     End: Station 3035.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
