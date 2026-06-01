@@ -151,11 +151,11 @@ Trip CSVs (~600 MB total) are not committed — regenerate via `python src/data_
 
 This project is inspired by a Data Science Bootcamp I had done while I was working at IBM. I had analyzed NYC CitiBike data and IBM's proprietary Weather Company API. This rebuild:
 
-- Switches to **Philadelphia's Indego system** — locally relevant for the Wharton WEMBA audience
+- Switches to **Philadelphia's Indego system** — a local observation during my time at The Wharton School
 - Replaces proprietary weather with **Open-Meteo** (free, ERA5 reanalysis)
 - Drops demographic features (gender, birth year) that modern datasets no longer publish for privacy reasons
 - **Reframes the problem** from generic exploration to bike rebalancing — a concrete operational use case with measurable ROI
 
 ---
 
-*Naval Katoch — Senior Analytics Consultant | WEMBA, Wharton School*
+*Naval Katoch*
