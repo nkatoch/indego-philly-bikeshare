@@ -3,6 +3,7 @@ numpy>=1.26
 matplotlib>=3.8
 seaborn>=0.13
 folium>=0.16
+contextily>=1.5
 geopy>=2.4
 scikit-learn>=1.4
 xgboost>=2.0
